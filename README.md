@@ -14,8 +14,8 @@
 
 - [x] Home
 - [x] Quem somos
-- [] Nossa Equipe
-- [] Missão, Visão e Valores
+- [ ] Nossa Equipe
+- [ ] Missão, Visão e Valores
 - [x] Regimento
 - [x] Organograma
 - [x] Avisos
@@ -27,24 +27,24 @@
 
 **Description:** Develop responsive layout
 
-- [] Home
-- [] Quem somos
-- [] Nossa Equipe
-- [] Missão, Visão e Valores
-- [] Avisos
-- [] Links Úteis
-- [] Ramais
-- [] Downloads
+- [ ] Home
+- [ ] Quem somos
+- [ ] Nossa Equipe
+- [ ] Missão, Visão e Valores
+- [ ] Avisos
+- [ ] Links Úteis
+- [ ] Ramais
+- [ ] Downloads
 
 **Milestone 03 (0%)**
 
 **Description:** Implement WordPress as CMS
 
-- [] Home
-- [] Quem somos
-- [] Nossa Equipe
-- [] Missão, Visão e Valores
-- [] Avisos
-- [] Links Úteis
-- [] Ramais
-- [] Downloads
+- [ ] Home
+- [ ] Quem somos
+- [ ] Nossa Equipe
+- [ ] Missão, Visão e Valores
+- [ ] Avisos
+- [ ] Links Úteis
+- [ ] Ramais
+- [ ] Downloads

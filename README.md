@@ -10,78 +10,41 @@
 
 **Milestone 01 (80%)**
 
-**Description:** Develop intranet pages with HTML+css
+**Description:** Develop all the pages with HTML+CSS
 
 - [x] Home
-		- [x] Navbar
-		- [x] Intro
-		- [x] Aniversariantes do Mês
-		- [ ] Avisos
-		- [ ] Links Úteis
-		- [x] Footer
-				
-- [ ] Quem Somos
-		- [ ] Missão, Visão e Valores
-      - [x] Navbar
-      - [x] Intro
-      - [ ] Missão, visão e valores
-      - [x] Footer
-		- [x] Nossa Equipe
-      - [x] Navbar
-      - [x] Intro
-      - [x] Equipe
-      - [x] Footer
-		- [ ] Regimento Interno
-		- [ ] Organograma
-
-- [ ] Avisos
-		- [x] Navbar
-		- [x] Intro
-		- [ ] Avisos
-		- [x] Footer
-
-- [ ] Links Úteis
-		- [x] Navbar
-		- [x] Intro
-		- [ ] Links Úteis
-		- [x] Footer
-
+- [x] Quem somos
+- [] Nossa Equipe
+- [] Missão, Visão e Valores
+- [x] Regimento
+- [x] Organograma
+- [x] Avisos
+- [x] Links Úteis
 - [x] Ramais
-		- [x] Navbar
-		- [x] Intro
-		- [x] Ramais
-		- [x] Footer
-
 - [x] Downloads
-		- [x] Navbar
-		- [x] Intro
-		- [x] Downloads
-		- [x] Footer
 
 **Milestone 02 (0%)**
 
-**Description:** Develop responsive css
+**Description:** Develop responsive layout
 
-- [ ] Responsivo
-		- [ ] Home
-		- [ ] Quem Somos
-  		- [ ] Missão, Visão e Valores
-  		- [ ] Nossa Equipe
-		- [ ] Avisos
-		- [ ] Links Úteis
-		- [ ] Ramais
-		- [ ] Downloads
+- [] Home
+- [] Quem somos
+- [] Nossa Equipe
+- [] Missão, Visão e Valores
+- [] Avisos
+- [] Links Úteis
+- [] Ramais
+- [] Downloads
 
 **Milestone 03 (0%)**
 
-**Description:** Implement Wordpress cms
+**Description:** Implement WordPress as CMS
 
-- [ ] Responsivo
-		- [ ] Home
-		- [ ] Quem Somos
-  		- [ ] Missão, Visão e Valores
-  		- [ ] Nossa Equipe
-		- [ ] Avisos
-		- [ ] Links Úteis
-		- [ ] Ramais
-		- [ ] Downloads
+- [] Home
+- [] Quem somos
+- [] Nossa Equipe
+- [] Missão, Visão e Valores
+- [] Avisos
+- [] Links Úteis
+- [] Ramais
+- [] Downloads

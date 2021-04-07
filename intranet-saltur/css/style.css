@@ -1,0 +1,334 @@
+/* ========= Reset ========= */
+
+:root{
+  --azul-prefeitura: #0e61a6;
+  --azul-escuro: #325187;
+  --azul-claro: #ACCEEA;
+  --preto: #000000;
+  --cinza: #4F4F4F;
+  --gelo: #f3f3f3;
+  --branco: #ffffff;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+.container{
+  width: 1280px;
+  margin: 0 auto;
+}
+
+body{
+  background: var(--branco);
+}
+
+section, footer{
+  margin-top: 80px;
+}
+
+/* ========= Titles ========= */
+
+h1, h2, h3, h4, a, button{
+  font-weight: 700;
+}
+
+h1{  
+  font-size: 48px;
+}
+
+h2{
+  color: var(--azul-escuro);
+  text-align: center;
+  font-size: 36px;
+}
+
+h3{
+  color: var(--azul-escuro);
+  font-size: 24px;
+}
+
+h4{
+  color: var(--preto);
+  font-size: 18px;
+}
+
+.subtitulo{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;  
+}
+
+a{
+  font-size: 14px;  
+  cursor: pointer;
+}
+
+/* ========= Buttons ========= */
+
+.button-full-white{
+  color: var(--azul-escuro);
+  padding: 16px 60px;
+  border-radius: 0;
+  background-color: var(--branco);  
+}
+
+.button-full-white:hover{
+  color: var(--branco);
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px var(--branco);  
+}
+
+.button-stroke-blue{
+  color: var(--azul-escuro);
+  padding: 16px 60px;  
+  box-shadow: inset 0px 0px 0px 2px var(--azul-escuro);
+}
+
+.button-stroke-blue:hover{  
+  color: var(--branco);
+  padding: 16px 60px;
+  background-color: var(--azul-escuro);
+}
+
+/* ========= Barra de Navegação ========= */
+
+header{  
+  position: fixed;
+  width: 100%;
+  top: 0;  
+  padding: 20px 0;
+  background-color: var(--branco);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+header div.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.link-header{
+  color: var(--preto);
+}
+
+.link-header:hover{  
+  color: var(--azul-prefeitura);  
+}
+
+.paginaAtual{
+  color: var(--azul-prefeitura);
+}
+
+div.container nav ul li{
+  display: inline-block;
+  padding: 0 0 0 25px;
+}
+
+.dropdown-button {
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  padding-top: 33px;
+  position: absolute;  
+  min-width: 250px;  
+  z-index: 1;
+  background-color: var(--branco);
+}
+
+.dropdown-content a{
+  color: var(--preto);
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover{
+  color: var(--branco);
+  background-color: var(--azul-escuro);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ========= Section Introdução ========= */
+
+#intro{
+  margin-top: 85px;
+  padding: 140px 0;
+  background-color: var(--azul-prefeitura);  
+}
+
+#intro div.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo-intro{
+  color: var(--branco);
+  width: 50%;
+}
+
+.conteúdo-intro p{
+  color: var(--branco);
+}
+
+.conteudo-intro p{
+  margin: 20px 0 40px 0;
+}
+
+/* ========= Section Footer ========= */
+
+footer{
+  text-align: center;
+}
+
+#links-footer{
+  padding: 40px;
+  background: var(--azul-prefeitura);
+}
+
+#links-footer div.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-footer{
+  color: var(--branco);
+  padding: 10px;
+  display: block;
+}
+
+.link-footer:hover{
+  color: var(--preto);
+}
+
+.copy{
+  color: var(--branco);
+  padding: 30px;
+  background: var(--azul-escuro);
+}
+
+
+/* ========= Section Aniversariantes do Mês ========= */
+
+.aniversariantes{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.aniversariante{
+  display: flex;  
+}
+
+.infoAniversariante{
+  margin: auto 0 auto 20px;
+}
+
+/* ========= Section Avisos ========= */
+
+#avisos{
+  text-align: center;
+}
+
+.avisos{
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 80px;
+  margin: 80px 0;
+}
+
+.imagem-aviso{
+  max-width: 100%;
+}
+
+.conteudo-aviso{ 
+  width: 100%; 
+  padding-top: 20px;
+}
+
+.paragrafo-avisos{  
+  margin: 10px 0 20px 0;
+}
+
+/* ========= Section modelo aviso ========= */
+
+.texto-aviso{
+  margin-top: 160px;
+}
+
+.texto-aviso h1{
+  text-align: center;
+  color: var(--azul-escuro);
+}
+
+.paragrafo{
+  margin-top: 80px;
+  color: var(--cinza);
+}
+
+.paragrafo p{
+  margin-top: 20px;
+  color: var(--cinza);
+}
+
+/* ========= Section Links Úteis ========= */
+
+#links-uteis{
+  text-align: center;
+}
+
+.links-uteis{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 80px;
+  margin: 80px 0;
+}
+
+.card-link-util{
+  background-color: var(--gelo);
+}
+
+.img-link{
+  width: 100%;
+}
+
+.conteudo-link{
+  margin: auto auto;
+  width: 80%;
+  padding: 40px 20px;
+}
+
+.conteudo-link h3{
+  height: 60px;  
+}
+
+.paragrafo-link{
+  margin: 20px 0;
+}

@@ -1,16 +1,20 @@
 ## Intranet Saltur
 
-**About this project:** This projects will be for internal use by [Empresa Salvador Turismo](http://saltur.salvador.ba.gov.br/)
+## About this project/sobre o projeto:
 
-## Equipe
-- **Andre Luiz Ribeiro:** IT Mananger
-- **Alexandre Shyjada Sousa:** Front-End Developer
+This project aims to be an intranet from [Empresa Salvador Turismo](http://saltur.salvador.ba.gov.br/), a state owned enterprise from Salvador city hall.
 
-## Cronograma
+Esse projeto tem como objetivo ser uma intranet da [Empresa Salvador Turismo](http://saltur.salvador.ba.gov.br/), uma estatal da prefeitura municipal de Salvador.
+
+## Team/Equipe
+- **Andre Luiz Ribeiro:** IT Mananger / Gerente de TI
+- **Alexandre Shyjada Sousa:** Front-End Developer / Desenvolvedor Front-End
+
+## Schedule/Cronograma
 
 **Milestone 01 (80%)**
 
-**Description:** Develop all the pages with HTML+CSS
+**Description/Descrição:** Develop all the pages with HTML+CSS
 
 - [x] Home
 - [x] Quem somos
@@ -25,7 +29,7 @@
 
 **Milestone 02 (0%)**
 
-**Description:** Develop responsive layout
+**Description/Descrição:** Develop responsive layout
 
 - [ ] Home
 - [ ] Quem somos
@@ -38,7 +42,7 @@
 
 **Milestone 03 (0%)**
 
-**Description:** Implement WordPress as CMS
+**Description/Descrição:** Implement WordPress as CMS
 
 - [ ] Home
 - [ ] Quem somos

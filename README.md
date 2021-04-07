@@ -1,5 +1,3 @@
-## Intranet Saltur
-
 ## About this project/sobre o projeto:
 
 This project aims to be an intranet from [Empresa Salvador Turismo](http://saltur.salvador.ba.gov.br/), a state owned enterprise from Salvador city hall.

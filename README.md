@@ -29,13 +29,13 @@ Esse projeto tem como objetivo ser uma intranet da [Empresa Salvador Turismo](ht
 
 **Description/Descrição:** Develop responsive layout
 
-- [ ] Home
+- [x] Home
 - [ ] Quem somos
-- [ ] Nossa Equipe
+- [x] Nossa Equipe
 - [ ] Missão, Visão e Valores
 - [ ] Avisos
-- [ ] Links Úteis
-- [ ] Ramais
+- [x] Links Úteis
+- [x] Ramais
 - [ ] Downloads
 
 **Milestone 03 (0%)**

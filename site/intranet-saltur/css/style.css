@@ -490,10 +490,14 @@ footer{
     margin: 8rem 0;
   }
 
+  .imagem-aviso{
+    width: 100vw;
+  }
+
   .links-uteis{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 6rem;
+    column-gap: 4rem;
     row-gap: 8rem;
     margin: 8rem 0;
   }
@@ -516,23 +520,19 @@ footer{
 
 @media (max-width: 720px){ 
 
-  .avisos{
+  .avisos, .links-uteis{
     text-align: center;
     display: block;    
     margin-top: 8rem 0;
   }
 
-  .aviso{
+  .aviso, .link-util{
     margin: 8rem auto 0 auto;
-    max-width: 70%;
   }
 
-  .links-uteis{
-    display: grid;
-    grid-template-columns: 70%;
-    column-gap: 6rem;
-    row-gap: 8rem;
-    margin: 8rem 0;
+  .aviso .conteudo-aviso h3{
+    margin: 0 auto;
+    max-width: 95%;
   }
 
   .ramais{
@@ -542,7 +542,6 @@ footer{
     row-gap: 2rem;
     column-gap: 2rem;
   }
-
 
 }
 
@@ -559,4 +558,5 @@ footer{
     display: block;
     text-align: center;
   }
+  
 }

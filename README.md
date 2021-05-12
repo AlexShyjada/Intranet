@@ -29,6 +29,9 @@ Esse projeto tem como objetivo ser uma intranet da [Empresa Salvador Turismo](ht
 
 **Description/Descrição:** Develop responsive layout
 
+- [x] Header
+- [ ] Banner de Introdução
+- [ ] footer
 - [x] Home
 - [ ] Quem somos
 - [x] Nossa Equipe

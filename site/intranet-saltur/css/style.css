@@ -26,7 +26,7 @@ html{
 }
 
 .container{
-  width: 1280px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -79,7 +79,7 @@ p{
 a{
   font-size: 1.4rem;  
   cursor: pointer;
-}
+}      
 
 /* ========= Buttons ========= */
 
@@ -112,39 +112,47 @@ a{
 
 /* ========= Barra de Navegação ========= */
 
-header{  
+header {
   position: fixed;
   width: 100%;
   top: 0;  
-  padding: 2rem 0;
   background-color: var(--branco);
 }
 
-header div.container{
+header .container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;  
+  align-items: center;
+  justify-content: space-between;        
+  margin: auto;
 }
 
-.logo{
-  width: 100%;
+header img {
+  padding: 2.5rem 0;
 }
 
-.link-header{
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
   color: var(--preto);
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  transition: all 200ms linear 0s;
 }
 
-.link-header:hover{  
-  color: var(--azul-prefeitura);  
-}
-
-.paginaAtual{
+.páginaAtual{
   color: var(--azul-prefeitura);
 }
 
-div.container nav ul li{
-  display: inline-block;
-  padding: 0 0 0 2.5rem;
+header nav ul li a:hover, .dropdown:hover{  
+  color: var(--azul-prefeitura);  
 }
 
 .dropdown-button {
@@ -152,13 +160,17 @@ div.container nav ul li{
 }
 
 .dropdown {
+  cursor: pointer;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 1.4rem;
   position: relative;
   display: inline-block;
 }
 
 .dropdown-content{
   display: none;
-  padding-top: 3.3rem;
+  padding-top: 3.9rem;
   position: absolute;  
   min-width: 250px;  
   z-index: 1;
@@ -169,6 +181,8 @@ div.container nav ul li{
   color: var(--preto);
   padding: 1.2rem 1.6rem;
   display: block;
+  margin-left: 0;
+  transition: all 200ms linear 0s;
 }
 
 .dropdown-content a:hover{
@@ -509,6 +523,97 @@ footer{
 }
 
 @media (max-width: 1000px){
+  
+  .container{
+    width: 90%;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .one, .two, .three{
+    background-color: var(--azul-escuro);
+    height: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition-duration: 0.2s;
+  }
+
+  .menu-toggle{
+    width: 35px;
+    height: 30px;
+    cursor: poi;
+  }
+
+  .menu-section.on{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--branco);
+  }
+
+  .menu-section.on nav{
+    display: block;
+  }
+
+  .menu-section.on .menu-toggle{
+    position: absolute;
+    right: 45px;
+    top: 35px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(10px, -12px);
+  }
+
+  .menu-section.on nav ul{
+    text-align: center;
+    display: block;
+  }
+
+  .menu-section.on nav ul a{
+    font-size: 1.5rem;
+    line-height: 4rem;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+  .dropdown span{
+    display: block;
+    padding: 1.4rem 0;
+  }      
+
+  .menu-section.on nav ul li .dropdown-content.on{
+    display: block;
+    padding: 0 !important;
+    position: relative;
+    padding-top: 3.3rem; 
+    background: none;
+  }        
+
+  .menu-section.on nav ul li .dropdown-content.on a:hover{
+    color: var(--azul-prefeitura);
+    background: none;
+  }
+
   .aniversariantes{
     margin-top: 8rem;
     display: grid;

@@ -17,25 +17,36 @@
 
     <header>
       <div class="container">
-        <a href="index.html"><img class="logo" src="intranet-saltur/img/Logo-Saltur.svg" alt="Logo da SALTUR"></a>
-        <nav class="nav-links">
+        
+        <a href="index.html"><img src="intranet-saltur/img/Logo-Saltur.svg" alt="Logo da SALTUR"/></a>
+
+        <div class="menu-section">
+
+          <div class="menu-toggle" onclick="headerMobile.open()">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+
+          <nav>
             <ul>
-                <li><a class="link-header paginaAtual" href="index.html">Página inicial</a></li>
-                <li class="dropdown"><a class="link-header dropdown-button" href="#">Quem Somos</a>
-                  <div class="dropdown-content">
-                    <a href="intranet-saltur/missao-visao-valores.html">Missão, Visão e Valores</a>
-                    <a href="intranet-saltur/nossa-equipe.html">Nossa Equipe</a>
-                    <a href="#">Regimento</a>
-                    <a href="#">Organograma</a>
-                  </div>
-                </li>                
-                <li><a class="link-header" href="intranet-saltur/avisos.html">Avisos</a></li>                
-                <li><a class="link-header" href="intranet-saltur/links-uteis.html">Links úteis</a></li>
-                <li><a class="link-header" href="intranet-saltur/ramais.html">Ramais</a></li>
-                <li><a class="link-header" href="intranet-saltur/downloads.html">Downloads</a></li>
+              <li><a class="páginaAtual" href="index.html">Página inicial</a></li>
+              <li class="dropdown"><span onclick="dropdownContent.open()">Quem Somos</span>
+                <div class="dropdown-content">
+                  <a href="intranet-saltur/missao-visao-valores.html">Missão, Visão e Valores</a>
+                  <a href="intranet-saltur/nossa-equipe.html">Nossa Equipe</a>
+                  <a href="#">Regimento</a>
+                  <a href="#">Organograma</a>
+                </div>
+              </li>
+              <li><a href="intranet-saltur/avisos.html">Avisos</a></li>
+              <li><a href="intranet-saltur/links-uteis.html">Links úteis</a></li>
+              <li><a href="intranet-saltur/ramais.html">Ramais</a></li>
+              <li><a href="intranet-saltur/downloads.html">Downloads</a></li>
             </ul>
-        </nav>
-      </div><!-- Fim container-->
+          </nav>
+        </div>
+      </div>
     </header>    
 
     <main>
@@ -292,6 +303,8 @@
       <div class="copy"><p class="color-branco">Copyright © 2021 -  Desenvolvido por NTI - SALTUR - Empresa Salvador Turismo</p></div>
 
     </footer>
+
+    <script src="intranet-saltur/script/scripts.js"></script>
 
   </body>
 

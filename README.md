@@ -25,7 +25,7 @@ git checkout 2-AlexShyjada
 Instale as dependências do projeto:
 
 ```bash
-cd 2 - Introdução ao JSX/project/site
+cd /project
 npm install
 ```
 

@@ -1,0 +1,46 @@
+.imgHeroSection{ 
+  height: 55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.imgHero{
+  width: 100%;
+}
+
+.articleHero{
+  padding: 2rem 0;
+  background-color: var(--branco);
+}
+
+.titleHero{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  
+}
+
+.paragrathHero{
+  margin-top: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+.btnHero{
+  display: flex;
+  margin-top: 2rem;
+  color: var(--branco);
+  font-weight: 700;
+  font-size: 1.4rem;
+  height: max-content;
+  width: max-content;
+  padding: 1.5rem 4rem;
+  border-radius: 0.5rem;
+  background-color: var(--azul-prefeitura);
+  transition: 0.3s;
+}
+
+.btnHero:hover{
+  opacity: 0.8;
+}

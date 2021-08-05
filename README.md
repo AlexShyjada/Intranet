@@ -16,13 +16,7 @@ Após isso, clone este repositório na sua máquina no diretório que preferir:
 git clone "https://github.com/AlexShyjada/intranet-saltur.git"
 ```
 
-Após isso, entre na branch onde o projeto está localizado:
-
-```bash
-git checkout 2-AlexShyjada
-```
-
-Instale as dependências do projeto:
+Entre no diretorio do projeto e instale as dependências do projeto:
 
 ```bash
 cd /project

@@ -1,0 +1,28 @@
+.header{
+  padding: 20px 0;
+  background-color: var(--branco);
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLinks{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2.5rem;
+}
+
+.linkHeader{
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--preto);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.linkHeader:hover{
+  color: var(--azul-prefeitura);
+}

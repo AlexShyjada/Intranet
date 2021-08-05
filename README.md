@@ -1,55 +1,41 @@
-## About this project/sobre o projeto:
+# Logo Ipsum
 
-This project aims to be an intranet from [Empresa Salvador Turismo](http://saltur.salvador.ba.gov.br/), a state owned enterprise from Salvador city hall.
+[Protótipo](https://www.figma.com/file/XHUYZVQjNJHhWfB0gKa17H/Landing-Page?node-id=0%3A1) | [Versão de Testes](#)
 
-Esse projeto tem como objetivo ser uma intranet da [Empresa Salvador Turismo](http://saltur.salvador.ba.gov.br/), uma estatal da prefeitura municipal de Salvador.
+### Gerenciamento
 
-## Team/Equipe
-- **Andre Luiz Ribeiro:** IT Mananger / Gerente de TI
-- **Alexandre Shyjada Sousa:** Front-End Developer / Desenvolvedor Front-End
+- **Desenvolvedor:** [Alexandre Shyjada](https://www.alexshyjada.com/)
 
-## Schedule/Cronograma
+### Instruções de instalação
 
-**Milestone 01 (80%)**
+Antes de tudo, você precisará instalar o [NodeJS](https://nodejs.org/en/download/).
 
-**Description/Descrição:** Develop all the pages with HTML+CSS
+Após isso, clone este repositório na sua máquina no diretório que preferir:
 
-- [x] Home
-- [x] Quem somos
-- [ ] Nossa Equipe
-- [ ] Missão, Visão e Valores
-- [x] Regimento
-- [x] Organograma
-- [x] Avisos
-- [x] Links Úteis
-- [x] Ramais
-- [x] Downloads
+```bash
+git clone "https://gitlab.com/InfoJrUFBA/nucleos/2021/03/front-end.git"
+```
 
-**Milestone 02 (0%)**
+Após isso, entre na minha branch:
 
-**Description/Descrição:** Develop responsive layout
+```bash
+git checkout 2-AlexShyjada
+```
 
-- [x] Header
-- [ ] Banner de Introdução
-- [ ] footer
-- [x] Home
-- [ ] Quem somos
-- [x] Nossa Equipe
-- [ ] Missão, Visão e Valores
-- [ ] Avisos
-- [x] Links Úteis
-- [x] Ramais
-- [ ] Downloads
+Instale as dependências do projeto:
 
-**Milestone 03 (0%)**
+```bash
+cd 2 - Introdução ao JSX/project/site
+npm install
+```
 
-**Description/Descrição:** Implement WordPress as CMS
+### Executando o projeto localmente
 
-- [ ] Home
-- [ ] Quem somos
-- [ ] Nossa Equipe
-- [ ] Missão, Visão e Valores
-- [ ] Avisos
-- [ ] Links Úteis
-- [ ] Ramais
-- [ ] Downloads
+Abra uma janela do terminal em "2 - Introdução ao JSX/project/site" e execute o frontend:
+
+```bash
+npm start
+
+```
+
+A pagina estará disponivel em localhost na porta indicada em seu terminal (:

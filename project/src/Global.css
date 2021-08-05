@@ -1,0 +1,33 @@
+:root{
+  --azul-prefeitura: #0e61a6;
+  --azul-escuro: #325187;
+  --azul-claro: #ACCEEA;
+  --preto: #000000;
+  --cinza: #4F4F4F;
+  --gelo: #f3f3f3;
+  --branco: #ffffff;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body{
+  font-size: 1.6rem;
+  background-color: var(--gelo);
+}

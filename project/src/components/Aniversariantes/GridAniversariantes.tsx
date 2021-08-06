@@ -1,6 +1,6 @@
 import React from 'react'
 import './GridAniversariantes.css'
-import Aniversariante from './Aniversariante'
+import Aniversariante from './AniversarianteCard'
 import {content} from './Content'
 
 export default function GridAniversariantes() {

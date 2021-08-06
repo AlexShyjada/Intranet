@@ -1,4 +1,4 @@
-interface aniversarianteData{
+export interface aniversarianteData{
   key: number;
   id: number;
   name: string;

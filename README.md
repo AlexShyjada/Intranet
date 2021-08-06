@@ -1,9 +1,3 @@
-<h1 align="center">
-  <img alt="Logo" src="/project/public/assets/logosaltur.svg" alt="Logo Saltur">
-</h1>
-
-<p align="center">Intranet onde funcionarios podem consultar notícias, links de sistemas, aniversariantes do mês, avisos, ramais, etc.</p>
-
 ## Saltur Intranet
 
 Intranet onde funcionarios podem consultar notícias, links de sistemas, aniversariantes do mês, avisos, ramais, etc. A aplicação foi desenvolvida utilizando o React.js com Typescript e Prismic CMS para gerenciamento e adição de posts.

@@ -17,7 +17,7 @@ export default function GridLinks() {
               paragrath={item.paragrath}
               url={item.url}
               img={item.img}
-           /> 
+           />
           )
         })}
       </div>

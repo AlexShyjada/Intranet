@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Aniversariantes from './components/Aniversariantes/GridAniversariantes'
 import GridLinks from './components/LinksUteis/GridLinks'
+import ArticleGrid from './components/Articles/AticleGrid'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Aniversariantes/>
       <GridLinks/>
+      <ArticleGrid/>
     </div>
   );
 }

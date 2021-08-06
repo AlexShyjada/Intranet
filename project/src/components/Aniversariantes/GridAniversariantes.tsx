@@ -1,5 +1,5 @@
 import React from 'react'
-import './GridAniversariante.css'
+import './GridAniversariantes.css'
 import Aniversariante from './Aniversariante'
 import {content} from './Content'
 

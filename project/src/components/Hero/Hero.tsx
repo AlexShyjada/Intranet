@@ -4,9 +4,7 @@ import './Hero.css'
 export default function Hero() {
   return (
     <section>
-      <div className="imgHeroSection">
-        <img className="imgHero" src="./assets/Hero/imgHero.jpg" alt="" />
-      </div>
+      <div className="imgHeroSection" style={{background: `url(/assets/Hero/imgHero.png)`}}></div>
       <div className="articleHero">
         <article className="article container">
           <h1 className="titleHero">Recadastramento dos aniversariantes do mês de agosto</h1>

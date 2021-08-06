@@ -1,35 +1,46 @@
-# Intranet Saltur
+<h1 align="center">
+  <img alt="Logo" src="/project/public/assets/logosaltur.svg" alt="Logo Saltur">
+</h1>
 
-[Protótipo](https://www.figma.com/file/XHUYZVQjNJHhWfB0gKa17H/Landing-Page?node-id=0%3A1) | [Versão de Testes](#)
+<p align="center">Intranet onde funcionarios podem consultar notícias, links de sistemas, aniversariantes do mês, avisos, ramais, etc.</p>
 
-### Gerenciamento
+## Saltur Intranet
 
-- **Desenvolvedor:** [Alexandre Shyjada](https://www.alexshyjada.com/)
+Intranet onde funcionarios podem consultar notícias, links de sistemas, aniversariantes do mês, avisos, ramais, etc. A aplicação foi desenvolvida utilizando o React.js com Typescript e Prismic CMS para gerenciamento e adição de posts.
 
-### Instruções de instalação
+---
 
-Antes de tudo, você precisará instalar o [NodeJS](https://nodejs.org/en/download/).
+## Preview
 
-Após isso, clone este repositório na sua máquina no diretório que preferir:
+
+
+---
+
+## Tecnologias
+
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Prismic CMS](https://prismic.io/)
+
+---
+
+### **Iniciando o projeto**
 
 ```bash
-git clone "https://github.com/AlexShyjada/intranet-saltur.git"
-```
+# Você precisa ter node na sua máquina para rodar o projeto
+# Não lembra se possui o node? Execute node -v no seu terminal
+$ node -v
 
-Entre no diretorio do projeto e instale as dependências do projeto:
+# Execute npm install para instalar as dependências
+$ npm install
 
-```bash
-cd /project
-npm install
-```
+# Execute npm start para iniciar a aplicação 
+$ npm start
 
-### Executando o projeto localmente
-
-Abra uma janela do terminal no diretorio "/project" e execute o frontend:
-
-```bash
-npm start
+# A página será aberta em localhost na porta indicada no seu terminal (:
 
 ```
 
-A pagina estará disponivel em localhost na porta indicada em seu terminal (:
+---
+
+Feito por [Alexandre Shyjada](https://www.alexshyjada.com/) 😎

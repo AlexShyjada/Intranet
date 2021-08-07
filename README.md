@@ -1,6 +1,6 @@
 ## Saltur Intranet
 
-Intranet onde funcionarios podem consultar notícias, links de sistemas, aniversariantes do mês, avisos, ramais, etc. A aplicação foi desenvolvida utilizando o React.js com Typescript e Prismic CMS para gerenciamento e adição de posts. **Antes que me pergunte: não, não tem nenhuma informação sensível desse orgão público rsrsrs** Inclusive se você for de algum setor de tecnologia de alguma prefeitura ou unidade da federação, sinta-se a vontade para clonar, modificar as informações e usar no seu orgão público.
+Intranet onde funcionários podem consultar notícias, links de sistemas, aniversariantes do mês, avisos, ramais, etc. A aplicação foi desenvolvida utilizando o React.js com Typescript e Prismic CMS para gerenciamento e adição de posts. **Antes que me pergunte: não, não tem nenhuma informação sensível desse órgão rsrsrs.** Inclusive se você for de algum setor de tecnologia de alguma prefeitura ou unidade da federação, sinta-se à vontade para clonar, modificar as informações e usar no seu órgão público.
 
 ---
 

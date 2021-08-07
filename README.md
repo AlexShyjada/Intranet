@@ -6,7 +6,7 @@ Intranet onde funcionarios podem consultar notícias, links de sistemas, anivers
 
 ## Preview
 
-<p align="center"> <img src="/project/public/preview.png" alt="preview" height="250"> </p>
+<p align="center"> <img src="/project/public/preview.png" alt="preview"> </p>
 
 ---
 

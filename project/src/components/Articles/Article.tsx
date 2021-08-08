@@ -7,7 +7,7 @@ export default function Article(props: articleData){
 
   return (
     <article className="noticia">
-      <img className="imgArticle" src={img} alt={title} />
+      <div className="imgArticle" style={{background: `url(${img}) no-repeat center`, backgroundSize: `cover`}}></div>
       <div className="contentArticle">
         <h3 className="articleTitle">{title}</h3>
         <p className="paragrathArticle">{paragrath}</p>

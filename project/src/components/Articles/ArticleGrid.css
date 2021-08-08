@@ -12,23 +12,27 @@
 .gridNoticias {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2.5rem;
+  column-gap: 2.5rem;
+  row-gap: 5rem;
 }
 
 .imgArticle {
+  height: 22rem;
   width: 100%;
 }
 
 .contentArticle {
+  width: 100%;
   margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
 }
 
 .articleTitle {
+  width: 100%;
   display: flex;
   align-items: center;
-  height: 6rem;
+  height: 7rem;
   font-size: 1.8rem;
 }
 
@@ -59,4 +63,19 @@
 
 .articleLink:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .gridNoticias {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .gridNoticias {
+    grid-template-columns: 1fr;
+  }
+  .imgArticle {
+    height: 25rem;
+  }
 }

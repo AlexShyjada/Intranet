@@ -28,7 +28,7 @@ export const content: articleData[] = [
     key: 3,
     id: 3,
     img: "/assets/Articles/img-noticia-vazia.png",
-    title: "Vacina express mantém agendamento aberto para imunização em casa",
+    title: "Vacina express mantém agendamento para imunização em casa",
     paragrath: "O serviço Vacina Express prossegue em Salvador com agendamento aberto para imunização em casa contra a Covid-19. O pedido pode ser feito na plataforma on-line a partir das 8h, através do site vacinaexpress.saude.salvador.ba.gov.br",
     url: "#"
   },

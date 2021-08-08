@@ -1,4 +1,4 @@
-.header{
+.header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -6,19 +6,19 @@
   background-color: var(--branco);
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
 }
 
-.navLinks{
+.navLinks {
   display: flex;
   align-items: center;
   list-style: none;
   gap: 2.5rem;
 }
 
-.linkHeader{
+.linkHeader {
   font-weight: 700;
   font-size: 1.4rem;
   color: var(--preto);
@@ -26,6 +26,12 @@
   text-align: center;
 }
 
-.linkHeader:hover{
+.linkHeader:hover {
   color: var(--azul-prefeitura);
+}
+
+@media (max-width: 900px) {
+  .navLinks {
+    display: none;
+  }
 }

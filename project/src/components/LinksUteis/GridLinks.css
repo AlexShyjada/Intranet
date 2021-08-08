@@ -1,21 +1,21 @@
-.LinksUteis{
+.LinksUteis {
   margin: 8rem auto;
 }
 
-.titleLinksUteis{
+.titleLinksUteis {
   text-align: center;
   margin: 8rem auto 8rem auto;
   font-size: 3.6rem;
   color: var(--azul-prefeitura);
 }
 
-.gridLinks{
+.gridLinks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2.5rem;
 }
 
-.cardLink{
+.cardLink {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -23,19 +23,19 @@
   background-color: var(--branco);
 }
 
-.imgLink{
+.imgLink {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
 }
 
-.contentLink{
+.contentLink {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2.5rem;
 }
 
-.titleLink{
+.titleLink {
   font-size: 2.2rem;
   height: 6rem;
   display: flex;
@@ -44,13 +44,22 @@
   text-align: center;
 }
 
-.paragrathLink{
-  margin-top: 1rem;
+.paragrathLink {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+  max-height: 10rem;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
   text-align: center;
   height: 5rem;
 }
 
-.btnLink{
+.btnLink {
   margin-top: 2rem;
   display: flex;
   font-size: 1.4rem;
@@ -62,6 +71,6 @@
   transition: 0.3s;
 }
 
-.btnLink:hover{
+.btnLink:hover {
   opacity: 0.8;
 }

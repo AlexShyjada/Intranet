@@ -11,7 +11,7 @@ export default function Aniversariante(props: aniversarianteData) {
       <article className="aniversarianteData">
         <h3 className="aniverTitle">{name}</h3>
         <p className="aniverParagrath">{date}</p>
-        <p className="aniverTitle">{sector}</p>
+        <p className="aniverSector">{sector}</p>
       </article>
     </div>
   )

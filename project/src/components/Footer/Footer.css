@@ -1,0 +1,60 @@
+.footer {
+  background-color: var(--azul-prefeitura);
+}
+
+.logoSalturFooter {
+  grid-area: logoSaltur;
+}
+
+.colunaDeLinks.one {
+  grid-area: colunaOne;
+}
+.colunaDeLinks.two {
+  grid-area: colunaTwo;
+}
+.logoNTI {
+  grid-area: LogoNti;
+}
+
+.gridFooter {
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2.5rem;
+  grid-template-areas: 'logoSaltur colunaOne colunaTwo LogoNti';
+}
+
+.logoSalturFooter,
+.logoNTI,
+.colunaDeLinks {
+  margin: auto 0;
+}
+
+.colunaDeLinks {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.link-footer {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  color: var(--branco);
+  transition: 0.3s;
+  width: max-content;
+}
+
+.link-footer:hover {
+  border-bottom: inset 2px var(--branco);
+}
+
+.copy {
+  padding: 2.5rem 0;
+  background-color: var(--azul-escuro);
+}
+
+.textCopy {
+  color: var(--branco);
+  text-align: center;
+}

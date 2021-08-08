@@ -9,7 +9,7 @@ export default function Header() {
         <ul className="navLinks">
           <li><a className="linkHeader" href="#">Página inicial</a></li>
           <li><a className="linkHeader" href="#">Quem Somos</a></li>
-          <li><a className="linkHeader" href="#">Avisos</a></li>
+          <li><a className="linkHeader" href="#">Notícias</a></li>
           <li><a className="linkHeader" href="#">Links úteis</a></li>
           <li><a className="linkHeader" href="#">Ramais</a></li>
           <li><a className="linkHeader" href="#">Downloads</a></li>

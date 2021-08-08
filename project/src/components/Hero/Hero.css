@@ -1,4 +1,4 @@
-.imgHeroSection{
+.imgHeroSection {
   margin: 8rem 0 0 0;
   height: 55rem;
   display: flex;
@@ -7,30 +7,29 @@
   overflow: hidden;
 }
 
-.imgHero{
+.imgHero {
   width: 100%;
 }
 
-.articleHero{
+.articleHero {
   padding: 2rem 0;
   background-color: var(--branco);
 }
 
-.titleHero{
+.titleHero {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   font-size: 3rem;
-  
 }
 
-.paragrathHero{
+.paragrathHero {
   margin-top: 1rem;
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   text-align: center;
 }
 
-.btnHero{
+.btnHero {
   display: flex;
   color: var(--branco);
   font-weight: 700;
@@ -44,6 +43,24 @@
   transition: 0.3s;
 }
 
-.btnHero:hover{
+.btnHero:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .titleHero {
+    font-size: 2.5rem;
+  }
+  .paragrathHero {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .titleHero {
+    font-size: 2.2rem;
+  }
+  .paragrathHero {
+    font-size: 1.4rem;
+  }
 }

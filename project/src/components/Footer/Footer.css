@@ -77,7 +77,7 @@
 @media (max-width: 500px) {
   .gridFooter {
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: 2.5rem;
     grid-template-areas:
       'logoSaltur logoSaltur'
       'LogoNti LogoNti'

@@ -58,3 +58,38 @@
   color: var(--branco);
   text-align: center;
 }
+
+@media (max-width: 900px) {
+  .gridFooter {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    grid-template-areas:
+      'logoSaltur colunaOne'
+      'LogoNti colunaTwo ';
+  }
+
+  .logoSalturFooter,
+  .logoNTI {
+    margin: 0 auto auto 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .gridFooter {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    grid-template-areas:
+      'logoSaltur logoSaltur'
+      'LogoNti LogoNti'
+      'colunaOne colunaOne '
+      'colunaTwo colunaTwo ';
+  }
+
+  .logoSalturFooter,
+  .logoNTI,
+  .colunaDeLinks {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+}

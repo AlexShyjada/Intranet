@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container gridFooter">
         <img className="logoSalturFooter" src="/assets/logosaltur2.svg" alt="" />
         <img className="logoNTI" src="/assets/logonti2.svg" alt="Logo NTI" />
-        <div className="colunaDeLinks one">            
+        <div className="colunaDeLinks one">
             <a className="link-footer" href="http://177.20.6.123/SIGP/portal/" target="_blank">Contracheque</a>
             <a className="link-footer" href="http://www.dom.salvador.ba.gov.br/" target="_blank">Diario Oficial</a>
             <a className="link-footer" href="http://portalesalvador.salvador.ba.gov.br/" target="_blank">eSalvador</a>
@@ -18,11 +18,11 @@ export default function Footer() {
           <a className="link-footer" href="http://curtacarnaval.com.br/" target="_blank">Carnaval de Salvador</a>
           <a className="link-footer" href="http://www.salvadorvaidebike.salvador.ba.gov.br/" target="_blank">SSA Vai de Bike</a>
           <a className="link-footer" href="http://www.festivaldacidade.salvador.ba.gov.br/" target="_blank">Festival da Cidade</a>
-          <a className="link-footer" href="http://reveillon.salvador.ba.gov.br/" target="_blank">Virada Salvador</a>                        
+          <a className="link-footer" href="http://reveillon.salvador.ba.gov.br/" target="_blank">Virada Salvador</a>
         </div>
       </div>
       <div className="copy ">
-        <p className="textCopy container">Copyright © 2021 -  Desenvolvido por NTI - SALTUR - Empresa Salvador Turismo</p>
+        <p className="textCopy container">Copyright © 2021 -  Desenvolvido por NTI - Empresa Salvador Turismo SALTUR</p>
       </div>
     </footer>
   )

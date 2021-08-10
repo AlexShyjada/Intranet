@@ -10,13 +10,14 @@ import Footer from './components/Footer/Footer'
 function App() {
   return (
     <div className="App">      
-      <ArticleGrid/>
+      <GridLinks/>
       
       {/*
       <Aniversariantes/>
       <Header/>
       <Hero/>
-      <GridLinks/>
+      
+      <ArticleGrid/>
       <Footer/>
       */}
       

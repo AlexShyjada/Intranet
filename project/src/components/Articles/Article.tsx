@@ -2,9 +2,7 @@ import React from 'react'
 import {articleData} from './Content'
 
 export default function Article(props: articleData){
-
   const {img, title, paragrath, url} = props;
-
   return (
     <article className="noticia">
       <div className="imgArticle" style={{background: `url(${img}) no-repeat center`, backgroundSize: `cover`}}></div>

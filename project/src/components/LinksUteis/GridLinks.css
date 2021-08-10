@@ -24,6 +24,7 @@
 }
 
 .imgLink {
+  height: 25rem;
   width: 100%;
   border-radius: 1rem 1rem 0 0;
 }
@@ -36,7 +37,7 @@
 }
 
 .titleLink {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   height: 6rem;
   display: flex;
   align-items: center;
@@ -73,4 +74,47 @@
 
 .btnLink:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 1280px) {
+  .imgLink {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .imgLink {
+    height: 18rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .gridLinks {
+    grid-template-columns: 1fr 1fr;
+  }
+  .imgLink {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .gridLinks {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardLink {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .imgLink {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .cardLink {
+    margin: 0 auto;
+    width: 100%;
+  }
 }

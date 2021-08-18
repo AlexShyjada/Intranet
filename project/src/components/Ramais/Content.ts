@@ -1,4 +1,4 @@
-export interface ramalData{
+export interface ramalData {
   key: number;
   id: number;
   Setor: string;
@@ -202,7 +202,7 @@ export const contentPrimeiroAndar: ramalData[] = [
   {
     key: 16,
     id: 16,
-    Setor: "NTI - Núcleo de Tecnologia da Informação",
+    Setor: "NTI",
     Atendente: "André, Rodrigo, Alexandre e Isadora",
     Ramal: "7698"
   },
@@ -302,82 +302,5 @@ export const contentTerreo: ramalData[] = [
     Setor: "Portaria",
     Atendente: "Maria, Roque e Itamar",
     Ramal: "7616"
-  },
-  {
-    key: 2,
-    id: 2,
-    Setor: "Secretária DIRFESP",
-    Atendente: "Telma",
-    Ramal: "7630"
-  },
-  {
-    key: 3,
-    id: 3,
-    Setor: "Eventos",
-    Atendente: "Merina",
-    Ramal: "7609"
-  },
-  {
-    key: 4,
-    id: 4,
-    Setor: "Eventos",
-    Atendente: "Pedrão",
-    Ramal: "7682"
-  },
-  {
-    key: 5,
-    id: 5,
-    Setor: "Eventos",
-    Atendente: "Otávio e Robenilson",
-    Ramal: "7668"
-  },
-  {
-    key: 6,
-    id: 6,
-    Setor: "Eventos",
-    Atendente: "Márcia e Lúcia",
-    Ramal: "7679"
-  },
-  {
-    key: 7,
-    id: 7,
-    Setor: "Eventos",
-    Atendente: "Joilton, Carine E Alex",
-    Ramal: "7672"
-  },
-  {
-    key: 8,
-    id: 8,
-    Setor: "Eventos",
-    Atendente: "Ana do Socorro e Christina",
-    Ramal: "7607"
-  },
-  {
-    key: 9,
-    id: 9,
-    Setor: "Eventos",
-    Atendente: "Vinícius",
-    Ramal: "7620"
-  },
-  {
-    key: 10,
-    id: 10,
-    Setor: "Eventos",
-    Atendente: "Estagiário",
-    Ramal: "7697"
-  },
-  {
-    key: 11,
-    id: 11,
-    Setor: "Recepção/Protocolo",
-    Atendente: "Rita",
-    Ramal: "7684"
-  },
-  {
-    key: 13,
-    id: 13,
-    Setor: "Sala Dos Motoristas",
-    Atendente: "Agnaldo,Anselmo, Cícero, Elinaldo...",
-    Ramal: "7641"
   },
 ]

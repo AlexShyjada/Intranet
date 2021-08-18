@@ -290,7 +290,7 @@ export const contentMezanino: ramalData[] = [
     key: 13,
     id: 13,
     Setor: "Sala Dos Motoristas",
-    Atendente: "Agnaldo,Anselmo, Cícero, Elinaldo...",
+    Atendente: "Agnaldo, Anselmo, Cícero e Elinaldo",
     Ramal: "7641"
   },
 ]

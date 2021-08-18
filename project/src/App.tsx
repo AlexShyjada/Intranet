@@ -7,20 +7,22 @@ import GridLinks from './components/LinksUteis/GridLinks'
 import ArticleGrid from './components/Articles/AticleGrid'
 import Footer from './components/Footer/Footer'
 import TableRamais from './components/Ramais/TableRamais'
+import TableEquipe from './components/Equipe/TableEquipe'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Hero />
+      <TableEquipe />
       <TableRamais />
       <Footer />
-      {/* 
-      
+
+      {/*
       <Aniversariantes/>
       <GridLinks/>
       <ArticleGrid/>
-       */}
+      */}
     </div>
   );
 }

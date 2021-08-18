@@ -1,16 +1,16 @@
-.ramalList{
+.fincionariosList{
   margin-bottom: 8rem;
   table-layout: fixed;
   border-spacing: 0 1rem;
 }
 
-.titleRamais{
+.titleEquipe{
   margin: 8rem 0;
   font-size: 3.6rem;
   text-align: center;
 }
 
-.titleAndar{
+.titleSetor{
   margin: 5rem auto 5rem auto;
   display: flex;
   align-items: center;
@@ -21,41 +21,42 @@
   text-align: center;
 }
 
-.cabecalhoItem{
+.funcCabecalhoItem{
   padding: 1.5rem;  
   background-color: var(--branco);
   text-align: left;
 }
 
-.setor{
+.funcNome{
   border-radius:  1rem 0 0 1rem;
-  width: 45%;
+  width: 25%;
 }
 
-.nome{
-  width: 45%;
+.funcSetor{
+  width: 40%;
 }
 
-.ramal{
+.funcCargo{
+  width: 35%;
   border-radius:  0 1rem 1rem 0;
 }
 
-.ramalItems{
+.funcionarioItems{
   background-color: rgba(255,255,255,0.3);
   transition: 0.3s;
 }
 
-.ramalItems:hover{
+.funcionarioItems:hover{
   background-color: rgba(255,255,255, 1);
 }
 
-.ramalItem{
+.funcionarioItem{
   padding: 1.5rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space:nowrap;
 }
 
-.ramalItem.setor{
+.funcionarioItem.funcNome{
   font-weight: 500;
 }

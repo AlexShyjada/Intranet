@@ -26,6 +26,10 @@
   text-align: center;
 }
 
+.linkHeader.active {
+  color: var(--azul-prefeitura);  
+}
+
 .linkHeader:hover {
   color: var(--azul-prefeitura);
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 export default function Header() {
@@ -7,12 +8,12 @@ export default function Header() {
       <nav className="container nav">
         <img src="./assets/logosaltur.svg" alt="Logo Saltur" />
         <ul className="navLinks">
-          <li><a className="linkHeader" href="#">Página inicial</a></li>
-          <li><a className="linkHeader" href="#">Quem Somos</a></li>
-          <li><a className="linkHeader" href="#">Notícias</a></li>
-          <li><a className="linkHeader" href="#">Links úteis</a></li>
-          <li><a className="linkHeader" href="#">Ramais</a></li>
-          <li><a className="linkHeader" href="#">Downloads</a></li>
+          <li><NavLink className="linkHeader" to="/" end>Home</NavLink></li>
+          <li><NavLink className="linkHeader" to="sobre-nos">Sobre Nós</NavLink></li>
+          <li><NavLink className="linkHeader" to="noticias">Notícias</NavLink></li>
+          <li><NavLink className="linkHeader" to="links-uteis">Links Úteis</NavLink></li>
+          <li><NavLink className="linkHeader" to="ramais">Ramais</NavLink></li>
+          <li><NavLink className="linkHeader" to="downloads">Downloads</NavLink></li>
         </ul>
       </nav>
     </header>

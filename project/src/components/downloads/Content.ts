@@ -35,7 +35,15 @@ export const contentDownloads: downloadData[] = [
   {
     key: 4,
     id: 4,
-    Title: "Logomarcas da prefeitura, Saltur e outros organismos municipais",
+    Title: "Logomarcas da Saltur e da Prefeitura",
+    Date: "12/03/2021",
+    Size: "0000 KB",
+    Local: "#",
+  },
+  {
+    key: 4,
+    id: 4,
+    Title: "Lista de ramais Saltur",
     Date: "12/03/2021",
     Size: "0000 KB",
     Local: "#",

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="colunaDeLinks one">
             <a className="link-footer" href="http://177.20.6.123/SIGP/portal/" target="_blank">Contracheque</a>
             <a className="link-footer" href="http://www.dom.salvador.ba.gov.br/" target="_blank">Diario Oficial</a>
-            <a className="link-footer" href="http://portalesalvador.salvador.ba.gov.br/" target="_blank">eSalvador</a>
+            <a className="link-footer" href="https://www.esalvador.salvador.ba.gov.br/login" target="_blank">eSalvador</a>
             <a className="link-footer" href="https://www.tcm.ba.gov.br" target="_blank">TCM</a>
         </div>
 

@@ -26,21 +26,29 @@
 }
 
 .logoSalturFooter,
-.logoNTI,
 .colunaDeLinks {
   margin: auto 0;
+}
+
+
+.logoNTI {
+  margin: auto 0 auto auto;
 }
 
 .colunaDeLinks {
   display: flex;
   gap: 2rem;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .link-footer {
   height: 3rem;
   display: flex;
   align-items: center;
+  text-align: center;
   color: var(--branco);
   width: max-content;
 }

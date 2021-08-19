@@ -27,10 +27,10 @@ export const content: linksData[] = [
   {
     key: 3,
     id: 3,
-    name: "Diario Oficial do Município de Salvador",
-    paragrath: "Consulta de publicações oficiais da Prefeitura.",
-    url: "http://portalesalvador.salvador.ba.gov.br/",
-    img: "/assets/LinksUteis/link-diariooficial.png"
+    name: "Chamados NTI",
+    paragrath: "Abra chamados em caso de problemas técnicos.",
+    url: "http://www.dom.salvador.ba.gov.br/",
+    img: "/assets/LinksUteis/link-chamadonti.png"
   },
   {
     key: 4,
@@ -51,9 +51,9 @@ export const content: linksData[] = [
   {
     key: 6,
     id: 6,
-    name: "Domínio web",
-    paragrath: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam",
-    url: "https://www.dominioweb.com.br/",
-    img: "/assets/LinksUteis/link-dominioweb.png"
+    name: "Diario Oficial do Município de Salvador",
+    paragrath: "Consulta de publicações oficiais da Prefeitura.",
+    url: "http://www.dom.salvador.ba.gov.br/",
+    img: "/assets/LinksUteis/link-diariooficial.png"
   }
 ]

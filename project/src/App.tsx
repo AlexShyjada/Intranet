@@ -1,28 +1,30 @@
 import React from 'react';
-import './Global.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
-import Aniversariantes from './components/Aniversariantes/GridAniversariantes'
-import GridLinks from './components/LinksUteis/GridLinks'
-import ArticleGrid from './components/Articles/AticleGrid'
 import Footer from './components/Footer/Footer'
-import TableRamais from './components/Ramais/TableRamais'
-import TableEquipe from './components/Equipe/TableEquipe'
-import TableDownloads from './components/downloads/TableDownloads'
+import Home from './components/Pages/Home'
+import LinksUteis from './components/Pages/LinksUteis'
+import Noticias from './components/Pages/Noticias'
+import Ramais from './components/Pages/Ramais'
+import Downloads from './components/Pages/Downloads'
+import './Global.css'
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Aniversariantes />
-      <GridLinks />
-      <ArticleGrid />
-      <TableEquipe />
-      <TableRamais />
-      <TableDownloads />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Header/>
+      <Hero/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="noticias" element={<Noticias />} />
+        <Route path="links-uteis" element={<LinksUteis />} />
+        <Route path="ramais" element={<Ramais />} />
+        <Route path="downloads" element={<Downloads />} />
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 

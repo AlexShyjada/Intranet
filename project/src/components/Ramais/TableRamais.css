@@ -38,6 +38,7 @@
 }
 
 .ramal{
+  width: 10%;
   border-radius:  0 1rem 1rem 0;
 }
 
@@ -59,4 +60,28 @@
 
 .ramalItem.setor{
   font-weight: 500;
+}
+
+@media (max-width: 900px){
+  .ramalList{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .setor{
+    border-radius:  1rem 0 0 1rem;
+    width: 40.5rem;
+  }
+  
+  .nome{
+    width: 40.5rem;
+  }
+  
+  .ramal{
+    width: 9rem;
+    border-radius:  0 1rem 1rem 0;
+  }
+
+
 }

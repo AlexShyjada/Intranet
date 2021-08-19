@@ -1,6 +1,6 @@
 ## Saltur Intranet
 
-- Intranet onde funcionários podem consultar notícias, links de sistemas, aniversariantes do mês, avisos, ramais, etc. A aplicação foi desenvolvida utilizando o React.js com Typescript e Prismic CMS para gerenciamento e adição de posts. **Atenção: Todas as informações presentes nesse repositório podem ser acessadas pelo portal da tranaparência.** Um dos objetivos dessa intranet é que ela seja acessível a todo e qualquer orgão da prefeitura ou unidade da federação, por isso o repósitório está público, então aproveite e sinta-se a vontade para clonar e implementar no seu orgão! 😉
+Intranet onde funcionários podem consultar notícias, links de sistemas, aniversariantes do mês, avisos, ramais, etc. A aplicação foi desenvolvida utilizando o React.js com Typescript e Prismic CMS para gerenciamento e adição de posts. **Atenção: Todas as informações presentes nesse repositório podem ser acessadas pelo portal da tranaparência.** Um dos objetivos dessa intranet é que ela seja acessível a todo e qualquer orgão da prefeitura ou unidade da federação, por isso o repósitório está público, então aproveite e sinta-se a vontade para clonar e implementar no seu orgão! 😉
 
 ---
 

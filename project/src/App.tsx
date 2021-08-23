@@ -9,6 +9,7 @@ import LinksUteis from './components/Pages/LinksUteis'
 import Noticias from './components/Pages/Noticias'
 import Ramais from './components/Pages/Ramais'
 import Downloads from './components/Pages/Downloads'
+import Missao from './components/Pages/MissaoVisãoValores'
 import './Global.css'
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="links-uteis" element={<LinksUteis />} />
         <Route path="ramais" element={<Ramais />} />
         <Route path="downloads" element={<Downloads />} />
+        <Route path="missao" element={<Missao />} />
       </Routes>
       <Footer/>
     </BrowserRouter>

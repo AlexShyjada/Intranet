@@ -28,7 +28,7 @@ export const content: linksData[] = [
     key: 3,
     id: 3,
     name: "Chamados NTI",
-    paragrath: "Abra chamados em caso de problemas técnicos.",
+    paragrath: "Abra um chamado em caso de problemas técnicos.",
     url: "http://www.dom.salvador.ba.gov.br/",
     img: "/assets/LinksUteis/link-chamadonti.png"
   },
@@ -43,10 +43,10 @@ export const content: linksData[] = [
   {
     key: 5,
     id: 5,
-    name: "Tribunal de Contas dos Municípios - TCM",
-    paragrath: "Acesso ao site do Tribunal de Contas dos Municipios.",
-    url: "https://www.tcm.ba.gov.br/",
-    img: "/assets/LinksUteis/link-tcm.png"
+    name: "Contracheque",
+    paragrath: "Acessar plataforma de consulta de contracheque.",
+    url: "http://177.20.6.123/SIGP/portal/",
+    img: "/assets/LinksUteis/link-contracheque.png"
   },
   {
     key: 6,

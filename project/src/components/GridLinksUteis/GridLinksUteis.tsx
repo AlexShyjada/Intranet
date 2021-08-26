@@ -1,7 +1,7 @@
 import React from 'react'
 import LinkCard from './LinkCard'
 import { content } from './Content'
-import './GridLinks.css'
+import './gridLinks.css'
 
 export default function GridLinks() {
   return (
@@ -10,14 +10,14 @@ export default function GridLinks() {
       <div className="gridLinks">
         {content.map((item) => {
           return(
-           <LinkCard
+          <LinkCard
               key={item.key}
               id={item.id}
               name={item.name}
               paragrath={item.paragrath}
               url={item.url}
               img={item.img}
-           />
+          />
           )
         })}
       </div>

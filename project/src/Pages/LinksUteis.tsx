@@ -1,5 +1,5 @@
 import React from 'react'
-import GridLinks from '../LinksUteis/GridLinks'
+import GridLinks from '../components/GridLinksUteis/GridLinksUteis'
 
 export default function LinksUteis() {
   return (

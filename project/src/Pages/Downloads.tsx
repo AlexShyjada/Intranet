@@ -1,5 +1,5 @@
 import React from 'react'
-import TableDownloads from '../downloads/TableDownloads'
+import TableDownloads from '../components/TableDownloads/TableDownloads'
 
 export default function Downloads() {
   return (

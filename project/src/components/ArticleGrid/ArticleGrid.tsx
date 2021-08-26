@@ -1,7 +1,7 @@
 import React from 'react'
 import {content} from './Content'
 import Article from './Article'
-import './ArticleGrid.css'
+import './articleGrid.css'
 
 export default function AticleGrid() {
   return (

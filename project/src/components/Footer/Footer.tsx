@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.css'
+import './footer.css'
 
 export default function Footer() {
   return (
@@ -8,10 +8,10 @@ export default function Footer() {
         <img className="logoSalturFooter" src="/assets/logosaltur2.svg" alt="" />
         <img className="logoNTI" src="/assets/logonti2.svg" alt="Logo NTI" />
         <div className="colunaDeLinks one">
-            <a className="link-footer" href="http://177.20.6.123/SIGP/portal/" target="_blank">Contracheque</a>
-            <a className="link-footer" href="http://www.dom.salvador.ba.gov.br/" target="_blank">Diario Oficial</a>
-            <a className="link-footer" href="https://www.esalvador.salvador.ba.gov.br/login" target="_blank">eSalvador</a>
-            <a className="link-footer" href="https://www.tcm.ba.gov.br" target="_blank">TCM</a>
+          <a className="link-footer" href="http://177.20.6.123/SIGP/portal/" target="_blank">Contracheque</a>
+          <a className="link-footer" href="http://www.dom.salvador.ba.gov.br/" target="_blank">Diario Oficial</a>
+          <a className="link-footer" href="https://www.esalvador.salvador.ba.gov.br/login" target="_blank">eSalvador</a>
+          <a className="link-footer" href="https://www.tcm.ba.gov.br" target="_blank">TCM</a>
         </div>
 
         <div className="colunaDeLinks two">

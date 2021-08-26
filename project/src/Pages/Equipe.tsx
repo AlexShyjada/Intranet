@@ -1,5 +1,5 @@
 import React from 'react'
-import TableEquipe from '../Equipe/TableEquipe'
+import TableEquipe from '../components/TableEquipe/TableEquipe'
 
 export default function Equipe() {
   return (

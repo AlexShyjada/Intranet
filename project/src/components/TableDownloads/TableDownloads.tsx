@@ -20,7 +20,7 @@ export default function TableDownloads() {
           {contentDownloads.map((item) => {
             return (
               <ArquivoDownload
-                key={item.key}
+                key={item.id}
                 id={item.id}
                 Title={item.Title}
                 Date={item.Date}

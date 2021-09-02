@@ -24,7 +24,7 @@ export default function TableRamais() {
             {contentSegundoAndar.map((item) => {
               return (
                 <Ramal
-                  key={item.key}
+                  key={item.id}
                   id={item.id}
                   Setor={item.Setor}
                   Atendente={item.Atendente}
@@ -50,7 +50,7 @@ export default function TableRamais() {
             {contentPrimeiroAndar.map((item) => {
               return (
                 <Ramal
-                  key={item.key}
+                  key={item.id}
                   id={item.id}
                   Setor={item.Setor}
                   Atendente={item.Atendente}
@@ -76,7 +76,7 @@ export default function TableRamais() {
             {contentMezanino.map((item) => {
               return (
                 <Ramal
-                  key={item.key}
+                  key={item.id}
                   id={item.id}
                   Setor={item.Setor}
                   Atendente={item.Atendente}
@@ -102,7 +102,6 @@ export default function TableRamais() {
             {contentTerreo.map((item) => {
               return (
                 <Ramal
-                  key={item.key}
                   id={item.id}
                   Setor={item.Setor}
                   Atendente={item.Atendente}

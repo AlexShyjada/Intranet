@@ -1,5 +1,4 @@
 export interface aniversarianteData{
-  key: number;
   id: number;
   name: string;
   sexo: string;
@@ -9,7 +8,6 @@ export interface aniversarianteData{
 
 export const content: aniversarianteData[] = [
   {
-    key: 1,
     id: 1,
     sexo: "m",
     name: "Alex Saldanha",
@@ -17,7 +15,6 @@ export const content: aniversarianteData[] = [
     sector: "Contratos e Convenhos"
   },
   {
-    key: 2,
     id: 2,
     sexo: "f",
     name: "Carine Bomfim",
@@ -25,7 +22,6 @@ export const content: aniversarianteData[] = [
     sector: "Eventos"
   },
   {
-    key: 3,
     id: 3,
     sexo: "f",
     name: "Tereza Ferreira",

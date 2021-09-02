@@ -1,0 +1,69 @@
+.app-assinatura{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.5rem;
+  width: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label{
+  padding: 0 1rem;
+  z-index: 1;
+  width: max-content;
+  margin: 0 0 -1rem 1rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  background: var(--gelo);
+}
+
+.inputGroup input{
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding: 1.5rem 2rem;
+  outline: none;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(206, 206, 206);
+  transition: 0.3s;
+  background-color: var(--gelo);
+}
+
+.inputGroup input:focus{
+  border: 2px solid var(--azul-prefeitura);
+}
+
+.infoAssinatura{
+  z-index: 1;
+  margin-top: 1rem;
+  margin-left: 20rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.nomeFuncionario{
+  color: var(--azul-prefeitura);
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cargoFuncionario{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.telefoneOrgao{
+  font-size: 1.4rem;
+  color: var(--azul-prefeitura)
+}

@@ -1,5 +1,4 @@
 export interface ramalData {
-  key: number;
   id: number;
   Setor: string;
   Atendente: string;
@@ -8,78 +7,67 @@ export interface ramalData {
 
 export const contentSegundoAndar: ramalData[] = [
   {
-    key: 1,
-    id: 1,
+    id: Math.random(),
     Setor: "Presidência",
     Atendente: "Isaac Edington",
     Ramal: "7671"
   },
   {
-    key: 2,
-    id: 2,
+    id: Math.random(),
     Setor: "Secretária da Presidência",
     Atendente: "Diana Silva",
     Ramal: "7608"
   },
   {
-    key: 3,
-    id: 3,
+    id: Math.random(),
     Setor: "Assessoria da Presidencia",
     Atendente: "Flávia",
     Ramal: "7603"
   },
   {
-    key: 4,
-    id: 4,
+    id: Math.random(),
     Setor: "Diretoria Adminstrativa e Financeira",
     Atendente: "Pedro Rodamilans",
     Ramal: "7610"
   },
   {
-    key: 5,
-    id: 5,
+    id: Math.random(),
     Setor: "Secretária da DIRAF",
     Atendente: "Carina",
     Ramal: "7617"
   },
   {
-    key: 6,
-    id: 6,
+    id: Math.random(),
     Setor: "Jurídico",
     Atendente: "Anacele, Salma e Bianca",
     Ramal: "7666"
   },
   {
-    key: 7,
-    id: 7,
+    id: Math.random(),
     Setor: "Movimento Salvador Vai de Bike",
     Atendente: "Liana",
     Ramal: "7605"
   },
   {
-    key: 8,
-    id: 8,
+    id: Math.random(),
     Setor: "Movimento Salvador Vai de Bike",
     Atendente: "Sérgio, Daiane e Passarinho",
     Ramal: "7680"
   },
   {
-    key: 9,
-    id: 9,
+    id: Math.random(),
     Setor: "Comunicação",
     Atendente: "Andréa, Brenda e Jeferson",
     Ramal: "7623"
   },
   {
-    key: 10,
-    id: 10,
+    id: Math.random(),
     Setor: "Marketing",
     Atendente: "Rodrigo",
     Ramal: "7653"
   },
   {
-    key: 11,
-    id: 11,
+    id: Math.random(),
     Setor: "Marketing",
     Atendente: "Marcela e Tayana",
     Ramal: "7695"
@@ -88,120 +76,103 @@ export const contentSegundoAndar: ramalData[] = [
 
 export const contentPrimeiroAndar: ramalData[] = [
   {
-    key: 1,
-    id: 1,
+    id: Math.random(),
     Setor: "Gerência Administrativa SALTUR",
     Atendente: "Branca Figueiredo, Carla, Landa e Ana Cristina",
     Ramal: "7624"
   },
   {
-    key: 2,
-    id: 2,
+    id: Math.random(),
     Setor: "Setor de Contratos",
     Atendente: "Alex",
     Ramal: "7676"
   },
   {
-    key: 2,
-    id: 2,
+    id: Math.random(),
     Setor: "Setor de Contratos",
     Atendente: "Amaro",
     Ramal: "7675"
   },
   {
-    key: 3,
-    id: 3,
+    id: Math.random(),
     Setor: "Setor de Contratos",
     Atendente: "Beth",
     Ramal: "7622"
   },
   {
-    key: 4,
-    id: 4,
+    id: Math.random(),
     Setor: "Auditoria Interna",
     Atendente: "Paulo Ricardo",
     Ramal: "7681"
   },
   {
-    key: 5,
-    id: 5,
+    id: Math.random(),
     Setor: "Setor Pessoal e RH",
     Atendente: "Narcizo",
     Ramal: "7643"
   },
   {
-    key: 6,
-    id: 6,
+    id: Math.random(),
     Setor: "Setor Pessoal e RH",
     Atendente: "Liliane",
     Ramal: "7652"
   },
   {
-    key: 7,
-    id: 7,
+    id: Math.random(),
     Setor: "Setor Pessoal e RH",
     Atendente: "Catiane",
     Ramal: "7651"
   },
   {
-    key: 8,
-    id: 8,
+    id: Math.random(),
     Setor: "Setor Pessoal e RH",
     Atendente: "Alessandra e Luiza",
     Ramal: "7631"
   },
   {
-    key: 9,
-    id: 9,
+    id: Math.random(),
     Setor: "Setor Pessoal e RH",
     Atendente: "Jovem Aprendiz",
     Ramal: "7626"
   },
   {
-    key: 10,
-    id: 10,
+    id: Math.random(),
     Setor: "Almoxarifado Saltur",
     Atendente: "Michele e Marcos",
     Ramal: "7646"
   },
   {
-    key: 11,
-    id: 11,
+    id: Math.random(),
     Setor: "Gerência Financeira",
     Atendente: "Iradema",
     Ramal: "7640"
   },
   {
-    key: 12,
-    id: 12,
+    id: Math.random(),
     Setor: "Setor Financeiro",
     Atendente: "Neto, Maitana, Da Paz",
     Ramal: "7638"
   },
   {
-    key: 13,
-    id: 13,
+    id: Math.random(),
     Setor: "Setor Financeiro",
     Atendente: "Dina, Tereza e Conceição",
     Ramal: "7645"
   },
   {
-    key: 14,
-    id: 14,
+    id: Math.random(),
     Setor: "Setor Financeiro",
     Atendente: "Sandra Britto",
     Ramal: "7696"
   },
   {
-    key: 15,
-    id: 15,
+    id: Math.random(),
     Setor: "Setor de Contabilidade",
     Atendente: "Joseliane e Liza",
     Ramal: "7632"
   },
   {
-    key: 16,
-    id: 16,
+    id: Math.random(),
     Setor: "NTI",
     Atendente: "André, Rodrigo, Alexandre e Isadora",
     Ramal: "7698"
@@ -210,85 +181,73 @@ export const contentPrimeiroAndar: ramalData[] = [
 
 export const contentMezanino: ramalData[] = [
   {
-    key: 1,
-    id: 1,
+    id: Math.random(),
     Setor: "Diretoria de Eventos",
     Atendente: "Marcio Sampaio",
     Ramal: "7677"
   },
   {
-    key: 2,
-    id: 2,
+    id: Math.random(),
     Setor: "Secretária DIRFESP",
     Atendente: "Telma",
     Ramal: "7630"
   },
   {
-    key: 3,
-    id: 3,
+    id: Math.random(),
     Setor: "Eventos",
     Atendente: "Merina",
     Ramal: "7609"
   },
   {
-    key: 4,
-    id: 4,
+    id: Math.random(),
     Setor: "Eventos",
     Atendente: "Pedrão",
     Ramal: "7682"
   },
   {
-    key: 5,
-    id: 5,
+    id: Math.random(),
     Setor: "Eventos",
     Atendente: "Otávio e Robenilson",
     Ramal: "7668"
   },
   {
-    key: 6,
-    id: 6,
+    id: Math.random(),
     Setor: "Eventos",
     Atendente: "Márcia e Lúcia",
     Ramal: "7679"
   },
   {
-    key: 7,
-    id: 7,
+    id: Math.random(),
     Setor: "Eventos",
     Atendente: "Joilton, Carine E Alex",
     Ramal: "7672"
   },
   {
-    key: 8,
-    id: 8,
+    id: Math.random(),
     Setor: "Eventos",
     Atendente: "Ana do Socorro e Christina",
     Ramal: "7607"
   },
   {
-    key: 9,
-    id: 9,
+    id: Math.random(),
     Setor: "Eventos",
     Atendente: "Vinícius",
     Ramal: "7620"
   },
   {
-    key: 10,
-    id: 10,
+    id: Math.random(),
     Setor: "Eventos",
     Atendente: "Estagiário",
     Ramal: "7697"
   },
   {
-    key: 11,
-    id: 11,
+    id: Math.random(),
     Setor: "Recepção/Protocolo",
     Atendente: "Rita",
     Ramal: "7684"
   },
   {
-    key: 13,
-    id: 13,
+    id: Math.random(),
     Setor: "Sala Dos Motoristas",
     Atendente: "Agnaldo, Anselmo, Cícero e Elinaldo",
     Ramal: "7641"
@@ -297,8 +256,7 @@ export const contentMezanino: ramalData[] = [
 
 export const contentTerreo: ramalData[] = [
   {
-    key: 1,
-    id: 1,
+    id: Math.random(),
     Setor: "Portaria",
     Atendente: "Maria, Roque e Itamar",
     Ramal: "7616"

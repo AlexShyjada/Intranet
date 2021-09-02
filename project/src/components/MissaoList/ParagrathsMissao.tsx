@@ -2,10 +2,8 @@ import React from 'react'
 import { missaoList } from './content'
 
 export default function ParagrathsMissao(props: missaoList) {
-  const {id, key, paragrath} = props
+  const {paragrath} = props
   return (
-    <ul>
-      <li>{paragrath}</li>
-    </ul>
+    <li>{paragrath}</li>
   )
 }

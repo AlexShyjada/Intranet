@@ -11,7 +11,7 @@ export default function AticleGrid() {
         {content.map((item) =>{
           return(
             <Article
-              key={item.key}
+              key={item.id}
               id={item.id}
               img={item.img}
               title={item.title}

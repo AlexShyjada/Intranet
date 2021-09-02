@@ -1,5 +1,5 @@
 import React from 'react'
-import ArticleGrid from '../components/ArticleGrid/ArticleGrid'
+import ArticleGrid from '../components/GridNoticias/GridNoticias'
 
 export default function Noticias() {
   return (

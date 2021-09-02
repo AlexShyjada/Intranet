@@ -23,7 +23,7 @@ export default function TableRamais() {
             {contentPresidencia.map((item) => {
               return (
                 <Funcionario
-                  key={item.key}
+                  key={item.id}
                   id={item.id}
                   Nome={item.Nome}
                   Setor={item.Setor}
@@ -49,7 +49,7 @@ export default function TableRamais() {
             {contentDirAdmFin.map((item) => {
               return (
                 <Funcionario
-                  key={item.key}
+                  key={item.id}
                   id={item.id}
                   Nome={item.Nome}
                   Setor={item.Setor}
@@ -75,7 +75,7 @@ export default function TableRamais() {
             {contentDirEventos.map((item) => {
               return (
                 <Funcionario
-                  key={item.key}
+                  key={item.id}
                   id={item.id}
                   Nome={item.Nome}
                   Setor={item.Setor}

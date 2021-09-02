@@ -1,5 +1,4 @@
 export interface articleData{
-  key: number;
   id: number;
   img: string;
   title: string;
@@ -9,7 +8,6 @@ export interface articleData{
 
 export const content: articleData[] = [
   {
-    key: 1,
     id: 1,
     img: "/assets/Articles/img-noticia-vazia.png",
     title: "Infectologista reforça a importância de não escolher imunizante",
@@ -17,7 +15,6 @@ export const content: articleData[] = [
     url: "#"
   },
   {
-    key: 2,
     id: 2,
     img: "/assets/Articles/img-noticia-vazia.png",
     title: "Programa de Valorização do Servidor",
@@ -25,7 +22,6 @@ export const content: articleData[] = [
     url: "#"
   },
   {
-    key: 3,
     id: 3,
     img: "/assets/Articles/img-noticia-vazia.png",
     title: "Vacina express mantém agendamento para imunização em casa",

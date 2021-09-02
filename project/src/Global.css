@@ -46,21 +46,11 @@ body {
 
 @media (max-width: 900px) {
   .container {
-    width: 720px;
-  }
-}
-
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 500px) {
-  .container {
     width: 90%;
   }
 }
+
+
 
 @media (max-width: 500px) {
   html {

@@ -5,10 +5,23 @@
   width: 100%;
 }
 
-form{
+.titleAssinatura{
+  margin: 8rem auto 1rem auto;
+  font-size: 3.6rem;
+  text-align: center;
+  color: var(--azul-prefeitura);
+}
+
+.descriptionForm{
+  margin: 1rem auto 8rem auto;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.app-assinatura form{
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 3rem;
 }
 
 .inputGroup{
@@ -42,6 +55,31 @@ form{
   border: 2px solid var(--azul-prefeitura);
 }
 
+.btnFormAssinatura{
+  border-radius: 0.5rem;
+  color: var(--branco);
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 2rem;
+  background: var(--azul-prefeitura);
+  transition: 0.3s
+}
+
+.btnFormAssinatura:hover{
+  opacity: 0.9;
+}
+
+.containerAssinatura{
+  border-radius: 0.5rem;
+  background: var(--branco);
+}
+
+.assinatura{
+  margin: 2rem auto auto auto;
+  width: 58rem;
+  height: 16.6rem;
+}
+
 .infoAssinatura{
   z-index: 1;
   margin-top: 1rem;
@@ -65,5 +103,15 @@ form{
 
 .telefoneOrgao{
   font-size: 1.4rem;
-  color: var(--azul-prefeitura)
+  color: var(--azul-prefeitura);
+}
+
+.nomeOrgao{
+  font-weight: 700;
+}
+
+.enderecoOrgao{
+  color: var(--azul-prefeitura);
+  font-weight: 400;
+  font-size: 1.2rem;
 }

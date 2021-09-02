@@ -21,9 +21,9 @@ export default function FormAssinatura() {
 
   return (
     <section id="assinatura" className="container">
-      <h2>Gerar Assinatura de Email</h2>
+      <h2 className="titleAssinatura">Gerar Assinatura de Email</h2>
       <p className="descriptionForm">
-        Preencha os seus dados abaixo e a assinatura será gerada
+        Preencha com os seus dados e a assinatura será gerada
       </p>
 
         <section id="app-assinatura" className="app-assinatura">
@@ -78,24 +78,27 @@ export default function FormAssinatura() {
             />
           </div>
 
-          <button>
-            Gerar Assinatura
+          <button className="btnFormAssinatura">
+            Fazer Download
           </button>
 
         </form>
 
-        <div className="assinatura">
-          <div className="infoAssinatura">
-            <span className="nomeFuncionario">{name}</span>
-            <span className="cargoFuncionario">{cargo}</span>
-            <span className="telefoneOrgao">{telefone}</span>
-            <span className="nomeOrgao">{orgao}</span>
-            <span className="enderecoOrgao">{endereco}</span>
-          </div>
-          <div className="assinaturaEmail">
-            <img src="/assets/AssinaturaEmail/assinatura-email.png" alt="bgAssinatura"/>
+        <div className="containerAssinatura">
+          <div className="assinatura">
+            <div className="infoAssinatura">
+              <span className="nomeFuncionario">{name === ""? "Seu Nome" : name}</span>
+              <span className="cargoFuncionario">{cargo === ""? "Seu cargo ou setor" : cargo}</span>
+              <span className="telefoneOrgao">+55 (71) {telefone ===""? "Telefone corporativo" : telefone}</span>
+              <span className="nomeOrgao">{orgao === ""? "Nome do seu órgão" : orgao}</span>
+              <span className="enderecoOrgao">{endereco === "" ? "Endereço do órgão" : endereco}</span>
+            </div>
+            <div className="assinaturaEmail">
+              <img src="/assets/AssinaturaEmail/assinatura-email.png" alt="bgAssinatura"/>
+            </div>
           </div>
         </div>
+
         
       </section>
         

@@ -1,13 +1,15 @@
-import React from 'react'
-import './gridAniversariantes.css'
-import Aniversariante from './AniversarianteCard'
-import {content} from './Content'
+import Aniversariante from "./AniversarianteCard";
+import { content } from "./Content";
+import styles from "./styles.module.css";
 
 export default function GridAniversariantes() {
   return (
-    <section id="Aniversariantes" className=" aniversariantes container">
-      <h2 className="titleAniversarante">Aniversariantes do mês</h2>
-      <div className="gridAniversariantes">
+    <section
+      id="Aniversariantes"
+      className={`${styles.aniversariantes} container`}
+    >
+      <h2 className={styles.titleAniversarante}>Aniversariantes do mês</h2>
+      <div className={styles.gridAniversariantes}>
         {content.map((item) => {
           return (
             <Aniversariante
@@ -18,9 +20,9 @@ export default function GridAniversariantes() {
               date={item.date}
               sector={item.sector}
             />
-          )
+          );
         })}
       </div>
     </section>
-  )
+  );
 }

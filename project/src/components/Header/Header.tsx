@@ -1,6 +1,5 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom';
-import './header.css'
+import Link from "next/link";
+import styles from "./styles.module.css";
 
 export default function Header() {
   return (
@@ -8,13 +7,33 @@ export default function Header() {
       <nav className="container nav">
         <img src="./assets/logosaltur.svg" alt="Logo Saltur" />
         <ul className="navLinks">
-          <li><NavLink className="linkHeader" to="/" end>Home</NavLink></li>
-          <li><NavLink className="linkHeader" to="noticias">Notícias</NavLink></li>
-          <li><NavLink className="linkHeader" to="links-uteis">Links Úteis</NavLink></li>
-          <li><NavLink className="linkHeader" to="ramais">Ramais</NavLink></li>
-          <li><NavLink className="linkHeader" to="downloads">Downloads</NavLink></li>
+          <li>
+            <a className={styles.linkHeader}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a className={styles.linkHeader}>
+              Notícias
+            </a>
+          </li>
+          <li>
+            <a className={styles.linkHeader}>
+              Links Úteis
+            </a>
+          </li>
+          <li>
+            <a className={styles.linkHeader}>
+              Ramais
+            </a>
+          </li>
+          <li>
+            <a className={styles.linkHeader}>
+              Downloads
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
-  )
+  );
 }

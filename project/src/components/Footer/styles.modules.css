@@ -44,7 +44,7 @@
   text-align: center;
 }
 
-.link-footer {
+.linkFooter {
   height: 3rem;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@
   width: max-content;
 }
 
-.link-footer:hover {
+.linkFooter:hover {
   border-bottom: inset 2px var(--branco);
 }
 

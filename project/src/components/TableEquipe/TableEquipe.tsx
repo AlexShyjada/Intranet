@@ -1,22 +1,27 @@
-import React from 'react'
-import { contentPresidencia } from './Content'
-import { contentDirAdmFin } from './Content'
-import { contentDirEventos } from './Content'
-import Funcionario from './Funcionario'
-import './TableEquipe.css'
+import { contentPresidencia } from "./Content";
+import { contentDirAdmFin } from "./Content";
+import { contentDirEventos } from "./Content";
+import Funcionario from "./Funcionario";
+import styles from "./styles.module.css";
 
 export default function TableRamais() {
   return (
     <section>
-      <h2 className="titleEquipe">Equipe da Saltur</h2>
-      <div className="andar">
-        <h3 className="titleSetor">Presidência</h3>
-        <table className="container fincionariosList">
+      <h2 className={styles.titleEquipe}>Equipe da Saltur</h2>
+      <div className={styles.andar}>
+        <h3 className={styles.titleSetor}>Presidência</h3>
+        <table className={`${styles.funcionariosList} container`}>
           <thead id="cabecalho">
-            <tr className="funcCabecalhoItems">
-              <th className="funcCabecalhoItem funcNome">Nome</th>
-              <th className="funcCabecalhoItem funcSetor">Setor</th>
-              <th className="funcCabecalhoItem funcCargo">Cargo</th>
+            <tr className={styles.funcCabecalhoItems}>
+              <th className={`${styles.funcCabecalhoItem} ${styles.funcNome}`}>
+                Nome
+              </th>
+              <th className={`${styles.funcCabecalhoItem} ${styles.funcSetor}`}>
+                Setor
+              </th>
+              <th className={`${styles.funcCabecalhoItem} ${styles.funcCargo}`}>
+                Cargo
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -29,20 +34,26 @@ export default function TableRamais() {
                   Setor={item.Setor}
                   Cargo={item.Cargo}
                 />
-              )
+              );
             })}
           </tbody>
         </table>
       </div>
 
-      <div className="andar">
-        <h3 className="titleSetor">Diretoria Administrativa Financeira</h3>
-        <table className="container fincionariosList">
-          <thead id="cabecalho">
-            <tr className="funcCabecalhoItems">
-              <th className="funcCabecalhoItem funcNome">Nome</th>
-              <th className="funcCabecalhoItem funcSetor">Setor</th>
-              <th className="funcCabecalhoItem funcCargo">Cargo</th>
+      <div className={styles.andar}>
+        <h3 className={styles.titleSetor}>Diretoria Administrativa Financeira</h3>
+        <table className={`container ${styles.funcionariosList}`}>
+        <thead id="cabecalho">
+            <tr className={styles.funcCabecalhoItems}>
+              <th className={`${styles.funcCabecalhoItem} ${styles.funcNome}`}>
+                Nome
+              </th>
+              <th className={`${styles.funcCabecalhoItem} ${styles.funcSetor}`}>
+                Setor
+              </th>
+              <th className={`${styles.funcCabecalhoItem} ${styles.funcCargo}`}>
+                Cargo
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -55,20 +66,26 @@ export default function TableRamais() {
                   Setor={item.Setor}
                   Cargo={item.Cargo}
                 />
-              )
+              );
             })}
           </tbody>
         </table>
       </div>
 
-      <div className="andar">
-        <h3 className="titleSetor">Diretoria de Eventos</h3>
-        <table className="container fincionariosList">
-          <thead id="cabecalho">
-            <tr className="funcCabecalhoItems">
-              <th className="funcCabecalhoItem funcNome">Nome</th>
-              <th className="funcCabecalhoItem funcSetor">Setor</th>
-              <th className="funcCabecalhoItem funcCargo">Cargo</th>
+      <div className={styles.andar}>
+        <h3 className={styles.titleSetor}>Diretoria de Eventos</h3>
+        <table className={`container ${styles.funcionariosList}`}>
+        <thead id="cabecalho">
+            <tr className={styles.funcCabecalhoItems}>
+              <th className={`${styles.funcCabecalhoItem} ${styles.funcNome}`}>
+                Nome
+              </th>
+              <th className={`${styles.funcCabecalhoItem} ${styles.funcSetor}`}>
+                Setor
+              </th>
+              <th className={`${styles.funcCabecalhoItem} ${styles.funcCargo}`}>
+                Cargo
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -81,11 +98,11 @@ export default function TableRamais() {
                   Setor={item.Setor}
                   Cargo={item.Cargo}
                 />
-              )
+              );
             })}
           </tbody>
         </table>
       </div>
     </section>
-  )
+  );
 }

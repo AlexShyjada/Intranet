@@ -1,17 +1,33 @@
-import React from 'react'
-import './hero.css'
+import "./hero.css";
+import styles from "./styles.module.css";
 
 export default function Hero() {
   return (
     <section>
-      <div className="imgHeroSection" style={{background: `url(/assets/Hero/imgHero.png) no-repeat center`}}></div>
-      <div className="articleHero">
-        <article className="article container">
-          <h1 className="titleHero">Recadastramento dos aniversariantes do mês de agosto</h1>
-          <p className="paragrathHero">Atenção! Está fazendo aniversário esse mês? Então não se esqueça de fazer o recadastramento na plataforma da Secretaria Municipal de Gestão - SEMGE</p>
-          <a className="btnHero" href="https://www.recadastramento.salvador.ba.gov.br/ativo/login" target="_blank">Saiba Mais</a>
+      <div
+        className={styles.imgHeroSection}
+        style={{ background: `url(/assets/Hero/imgHero.png) no-repeat center` }}
+      ></div>
+      <div className={styles.articleHero}>
+        <article className={`${styles.article} container`}>
+          <h1 className={styles.titleHero}>
+            Recadastramento dos aniversariantes do mês de agosto
+          </h1>
+          <p className={styles.paragrathHero}>
+            Atenção! Está fazendo aniversário esse mês? Então não se esqueça de
+            fazer o recadastramento na plataforma da Secretaria Municipal de
+            Gestão - SEMGE
+          </p>
+          <a
+            className={styles.btnHero}
+            href="https://www.recadastramento.salvador.ba.gov.br/ativo/login"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Saiba Mais
+          </a>
         </article>
       </div>
     </section>
-  )
+  );
 }

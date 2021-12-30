@@ -1,13 +1,13 @@
 import React from 'react'
 import {content} from './Content'
 import Article from './Article'
-import './articleGrid.css'
+import styles from './styles.module.css'
 
 export default function AticleGrid() {
   return (
-    <section id="Noticias" className="container noticias">
-      <h2 className="titleNoticias">Notícias</h2>
-      <div className="gridNoticias">
+    <section id="Noticias" className={`${styles.noticias} container`}>
+      <h2 className={styles.titleNoticias}>Notícias</h2>
+      <div className={styles.gridNoticias}>
         {content.map((item) =>{
           return(
             <Article

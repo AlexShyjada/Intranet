@@ -1,4 +1,4 @@
-.app-assinatura{
+.appAssinatura{
   display:grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2.5rem;
@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.app-assinatura form{
+.appAssinatura form{
   display: flex;
   flex-direction: column;
   gap: 3rem;

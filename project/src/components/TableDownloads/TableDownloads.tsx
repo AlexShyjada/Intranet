@@ -1,19 +1,26 @@
-import React from 'react'
-import { contentDownloads } from './Content'
-import ArquivoDownload from './ArquivoDownload'
-import './Downloads.css'
+import { contentDownloads } from "./Content";
+import ArquivoDownload from "./ArquivoDownload";
+import styles from "./styles.module.css";
 
 export default function TableDownloads() {
   return (
     <section>
-      <h2 className="titleDownloads">Downloads</h2>
-      <table className="container downloadsList">
+      <h2 className={styles.titleDownloads}>Downloads</h2>
+      <table className={`${styles.downloadsList} container`}>
         <thead id="cabecalho">
-          <tr className="downCabecalhoItems">
-            <th className="downCabecalhoItem downArquivo">Arquivo</th>
-            <th className="downCabecalhoItem downData">Data de publicação</th>
-            <th className="downCabecalhoItem downTamanho">Tamanho</th>
-            <th className="downCabecalhoItem downLink">Download</th>
+          <tr className={styles.downCabecalhoItems}>
+            <th className={`${styles.downCabecalhoItem} ${styles.downArquivo}`}>
+              Arquivo
+            </th>
+            <th className={`${styles.downCabecalhoItem} ${styles.downData}`}>
+              Data de publicação
+            </th>
+            <th className={`${styles.downCabecalhoItem} ${styles.downTamanho}`}>
+              Tamanho
+            </th>
+            <th className={`${styles.downCabecalhoItem} ${styles.downLink}`}>
+              Download
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -27,10 +34,10 @@ export default function TableDownloads() {
                 Size={item.Size}
                 Local={item.Local}
               />
-            )
+            );
           })}
         </tbody>
       </table>
     </section>
-  )
+  );
 }

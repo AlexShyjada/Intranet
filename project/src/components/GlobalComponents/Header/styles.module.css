@@ -19,19 +19,20 @@
   gap: 2.5rem;
 }
 
-.linkHeader {
+.linkHeader span {
   font-weight: 700;
   font-size: 1.4rem;
   color: var(--preto);
   transition: 0.3s;
   text-align: center;
+  cursor: pointer;
 }
 
-.linkHeader.active {
-  color: var(--azul-prefeitura);  
+.linkHeader.active span {
+  color: var(--azul-prefeitura);
 }
 
-.linkHeader:hover {
+.linkHeader span:hover {
   color: var(--azul-prefeitura);
 }
 

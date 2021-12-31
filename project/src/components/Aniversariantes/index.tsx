@@ -2,7 +2,7 @@ import Aniversariante from "./AniversarianteCard";
 import { content } from "./Content";
 import styles from "./styles.module.css";
 
-export default function GridAniversariantes() {
+export function GridAniversariantes() {
   return (
     <section
       id="Aniversariantes"

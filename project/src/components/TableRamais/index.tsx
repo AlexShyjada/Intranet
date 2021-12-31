@@ -3,9 +3,9 @@ import { contentPrimeiroAndar } from './Content'
 import { contentMezanino } from './Content'
 import { contentTerreo } from './Content'
 import Ramal from './Ramal'
-import styles from 'styles.module.css'
+import styles from './styles.module.css'
 
-export default function TableRamais() {
+export function TableRamais() {
   return (
     <section>
       <h2 className={styles.titleRamais}>Ramais Saltur</h2>

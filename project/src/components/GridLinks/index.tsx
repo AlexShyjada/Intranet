@@ -3,7 +3,7 @@ import LinkCard from "./LinkCard";
 import { content } from "./Content";
 import styles from "./styles.module.css";
 
-export default function GridLinks() {
+export function GridLinks() {
   return (
     <section 
       id="LinksUteis"
@@ -14,7 +14,7 @@ export default function GridLinks() {
         {content.map((item) => {
           return (
             <LinkCard
-              key={item.key}
+              key={item.id}
               id={item.id}
               name={item.name}
               paragrath={item.paragrath}

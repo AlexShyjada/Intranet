@@ -1,14 +1,12 @@
 import type { NextPage } from "next";
 
-import Aniversariantes from '../components/Aniversariantes/GridAniversariantes'
-import ArticleGrid from '../components/GridNoticias/GridNoticias'
-import GridLinks from '../components/GridLinksUteis/GridLinksUteis'
+import { GridNoticias, GridAniversariantes, GridLinks } from "../components";
 
 const Home: NextPage = () => {
   return (
     <>
-      <Aniversariantes />
-      <ArticleGrid />
+      <GridAniversariantes />
+      <GridNoticias />
       <GridLinks />
     </>
   );

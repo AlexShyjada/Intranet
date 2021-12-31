@@ -1,15 +1,14 @@
-import React from 'react'
-import {content} from './Content'
-import Article from './Article'
-import styles from './styles.module.css'
+import { content } from "./Content";
+import Article from "./Article";
+import styles from "./styles.module.css";
 
-export default function AticleGrid() {
+export function GridNoticias() {
   return (
     <section id="Noticias" className={`${styles.noticias} container`}>
       <h2 className={styles.titleNoticias}>Notícias</h2>
       <div className={styles.gridNoticias}>
-        {content.map((item) =>{
-          return(
+        {content.map((item) => {
+          return (
             <Article
               key={item.id}
               id={item.id}
@@ -18,9 +17,9 @@ export default function AticleGrid() {
               paragrath={item.paragrath}
               url={item.url}
             />
-          )
+          );
         })}
       </div>
     </section>
-  )
+  );
 }

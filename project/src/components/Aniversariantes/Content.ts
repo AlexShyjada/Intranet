@@ -10,22 +10,22 @@ export const content: aniversarianteData[] = [
   {
     id: 1,
     sexo: "m",
-    name: "Alex Saldanha",
-    date: "08 de Agosto",
-    sector: "Contratos e Convenhos"
+    name: "Alexandre Shyjada ",
+    date: "24 de Janeiro",
+    sector: "NTI"
   },
   {
     id: 2,
-    sexo: "f",
-    name: "Carine Bomfim",
-    date: "08 de Agosto",
-    sector: "Eventos"
+    sexo: "m",
+    name: "Alexandre Shyjada ",
+    date: "24 de Janeiro",
+    sector: "NTI"
   },
   {
     id: 3,
-    sexo: "f",
-    name: "Tereza Ferreira",
-    date: "26 de Agosto",
-    sector: "GERFIM"
-  }
+    sexo: "m",
+    name: "Alexandre Shyjada ",
+    date: "24 de Janeiro",
+    sector: "NTI"
+  },
 ]

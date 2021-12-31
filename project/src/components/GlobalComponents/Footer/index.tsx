@@ -1,16 +1,20 @@
 import styles from "./styles.module.css";
 
-export default function Footer() {
+export function Footer() {
   return (
-    <footer id="footer" className="footer">
-      <div className="container gridFooter">
+    <footer id="footer" className={styles.footer}>
+      <div className={`container ${styles.gridFooter}`}>
         <img
           className={styles.logoSalturFooter}
           src="/assets/logosaltur2.svg"
           alt="Logo Saltur"
         />
-        <img className="logoNTI" src="/assets/logonti2.svg" alt="Logo NTI" />
-        <div className="colunaDeLinks one">
+        <img
+          className={styles.logoNTI}
+          src="/assets/logonti2.svg"
+          alt="Logo NTI"
+        />
+        <div className={`${styles.colunaDeLinks} ${styles.one}`}>
           <a
             className={styles.linkFooter}
             href="http://177.20.6.123/SIGP/portal/"
@@ -45,7 +49,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="colunaDeLinks two">
+        <div className={`${styles.colunaDeLinks} ${styles.two}`}>
           <a
             className={styles.linkFooter}
             href="http://curtacarnaval.com.br/"
@@ -80,10 +84,10 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="copy ">
-        <p className="textCopy container">
-          Copyright &copy; 2021 - Desenvolvido por NTI - Empresa Salvador Turismo
-          SALTUR
+      <div className={styles.copy}>
+        <p className={`${styles.textCopy} container`}>
+          Copyright &copy; 2021 - Desenvolvido por NTI - Empresa Salvador
+          Turismo SALTUR
         </p>
       </div>
     </footer>

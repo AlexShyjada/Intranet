@@ -1,13 +1,13 @@
-import React from 'react'
 import { ramalData } from './Content'
+import styles from './styles.module.css'
 
 export default function Ramal(props: ramalData) {
   const { Setor, Atendente, Ramal } = props
   return (
-    <tr className="ramalItems">
-      <td className="ramalItem setor">{Setor}</td>
-      <td className="ramalItem nome">{Atendente}</td>
-      <td className="ramalItem ramal">{Ramal}</td>
+    <tr className={styles.ramalItems}>
+      <td className={`${styles.ramalItem} ${styles.setor}`}>{Setor}</td>
+      <td className={`${styles.ramalItem} ${styles.nome}`}>{Atendente}</td>
+      <td className={`${styles.ramalItem} ${styles.ramal}`}>{Ramal}</td>
     </tr>
   )
 }

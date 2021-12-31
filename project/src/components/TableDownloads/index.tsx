@@ -2,7 +2,7 @@ import { contentDownloads } from "./Content";
 import ArquivoDownload from "./ArquivoDownload";
 import styles from "./styles.module.css";
 
-export default function TableDownloads() {
+export function TableDownloads() {
   return (
     <section>
       <h2 className={styles.titleDownloads}>Downloads</h2>

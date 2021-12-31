@@ -1,7 +1,6 @@
-import "./hero.css";
 import styles from "./styles.module.css";
 
-export default function Hero() {
+export function Hero() {
   return (
     <section>
       <div
@@ -11,7 +10,7 @@ export default function Hero() {
       <div className={styles.articleHero}>
         <article className={`${styles.article} container`}>
           <h1 className={styles.titleHero}>
-            Recadastramento dos aniversariantes do mês de agosto
+            Recadastramento dos aniversariantes do mês de dezembro
           </h1>
           <p className={styles.paragrathHero}>
             Atenção! Está fazendo aniversário esse mês? Então não se esqueça de
